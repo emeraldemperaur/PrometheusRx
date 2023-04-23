@@ -6,7 +6,7 @@ class PrometheusTitle extends Component{
         return(
             <p
             className="prometheus-title"
-            font-size={this.props.titleSize}>
+            fontSize={this.props.titleSize}>
             Big things have small beginnings
             </p>
         );
