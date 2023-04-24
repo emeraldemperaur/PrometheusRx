@@ -1,12 +1,19 @@
 import { Component } from "react";
 import './user-login-request.styles.css';
 import UserLoginTitle from "./user-login-title";
+import $ from 'jquery'
+
 
 
 class UserLoginRequest extends Component{
+
+
+
     render(){
         return(
+
             <div  className="container">
+              
   <div margin-top="133px" className="box"></div>
   <div className="container-forms">
     <div className="container-info">
@@ -16,7 +23,9 @@ class UserLoginRequest extends Component{
             <p>
               Have a QiD account?
             </p>
-            <div className="btn">
+            <div className="btn" onClick={() => {
+            $(".container").toggleClass("log-in");
+        }}>
               Log in
             </div>
           </div>
@@ -28,7 +37,11 @@ class UserLoginRequest extends Component{
             <p>
               Need a QiD account? 
             </p>
-            <div className="btn">
+            <div className="btn" onClick={() => {
+          
+            $(".container").toggleClass("log-in");
+          
+        }}>
               Request
             </div>
           </div>
@@ -42,7 +55,7 @@ class UserLoginRequest extends Component{
         <div className="table">
           <div className="table-cell">
 
-            <input name="Username" placeholder="Username" type="text" maxLength="33"/>
+            <input name="Username" placeholder="Username" type="text" maxLength="40"/>
             <input name="Password" placeholder="Password" type="Password" maxLength="33"/>
             <div className="btn">
               Log in

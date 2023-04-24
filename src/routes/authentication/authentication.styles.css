@@ -1,0 +1,46 @@
+body{
+    background-color: #002C51;
+}
+
+.authentication{
+    background-color: #002C51;
+    padding-top: 96px;
+    display: block;
+
+  }
+  
+  .authentication-logo{
+    color: #ffffff;
+    border-right: 2px solid #ffffff;
+    letter-spacing: 0.33em;
+    text-transform: uppercase;
+    font-size: 180%;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    display:block;
+  
+  }
+
+  .firm-logo {
+    width: 300px;
+    height: 150px;
+    position: absolute;
+    bottom: 33px;
+    right: 23px;
+    z-index: 3;
+    fill: #fff;
+  }
+
+  .authentication-prometheus-title{
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: 0.16em;
+    color: #ffffff;
+    padding-top: 33px;
+    font-size: 18px;
+  
+  }
+
+  
+  
+  

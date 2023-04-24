@@ -5,7 +5,7 @@ class PrometheusLogo extends Component{
     render(){
         return(
             
-            <p color='#002C51' className="prometheus-logo line-1 anim-typewriter" 
+            <p  className={`${ this.props.styleName } line-1 anim-typewriter`}
             >≥Prometheus...
             </p>
         );

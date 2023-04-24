@@ -48,7 +48,7 @@
   margin: 0 auto;
   border-right: 2px solid #002C51;
   font-family: 'Montserrat';
-  font-weight: 600;
+  font-weight: 400;
   font-style: normal;
   font-size: 200%;
   text-align: center;
@@ -67,7 +67,7 @@ from{width: 0;}
 to{width: 13.33em;}
 }
 @keyframes blinkTextCursor{
-from{border-right-color: #002C51}
+from{border-right-color: #ffffff}
 to{border-right-color: transparent;}
 }
 
@@ -89,3 +89,8 @@ to{border-right-color: transparent;}
   color: #002C51;
 
 }
+
+
+
+
+
